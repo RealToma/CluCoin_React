@@ -1,0 +1,21 @@
+.header_left{
+    background-color: #120224;
+    height: 50px;
+
+}
+
+.header_center{
+    color: white;
+    @media (min-width:500px) {
+        font-size: 12px;
+    }
+}
+
+.center{
+    width: 100%;
+    height: 80vh;
+    background-image: url("../images/home.png");
+    background-size: 100% 100%;
+    /* filter: blur(0px); */
+    background-repeat: no-repeat;
+}
